@@ -1,0 +1,224 @@
+.Block-line, .Block-black {
+  width: 1200px;
+  height: 100px;
+  background-color: #333333;
+  margin-left: 100px;
+}
+
+.Title-red {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 59px;
+  color: #e72424;
+  margin-left: 100px;
+}
+
+.Text-main {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: black;
+  margin-left: 100px;
+}
+
+.Text-main-2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+  margin-left: 100px;
+}
+
+.Text-main-3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: black;
+  margin-left: 100px;
+}
+
+.Text-main-4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: black;
+  margin-left: 100px;
+}
+
+.Text-main-5 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: black;
+  margin-left: 100px;
+}
+
+.Text-main-6 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: black;
+  margin-left: 100px;
+}
+
+.Text-main-7 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+  margin-left: 100px;
+}
+
+.Text-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Circle-color-1 {
+  width: 50px;
+  height: 50px;
+  border: 1px;
+  border-style: solid;
+  border-color: #212121;
+  border-radius: 50%;
+  background: #212121;
+}
+
+.Circle-color-2 {
+  width: 50px;
+  height: 50px;
+  border: 1px;
+  border-style: solid;
+  border-color: #e72424;
+  border-radius: 50%;
+  background: #e72424;
+}
+
+.Circle-color-3 {
+  width: 50px;
+  height: 50px;
+  border: 1px;
+  border-style: solid;
+  border-color: #86878b;
+  border-radius: 50%;
+  background: #86878b;
+}
+
+.Circle-color-4 {
+  width: 50px;
+  height: 50px;
+  border: 1px;
+  border-style: solid;
+  border-color: #333333;
+  border-radius: 50%;
+  background: #333333;
+}
+
+.Circle-color-5 {
+  width: 50px;
+  height: 50px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50%;
+  background: black;
+}
+
+.Circle-div {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+
+.Img-div {
+  display: grid;
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 110px 110px 110px;
+  margin-left: 100px;
+  justify-self: center;
+  align-self: center;
+}
+
+.img-grid-1 {
+  grid-area: 1/1/2/2;
+}
+
+.img-grid-2 {
+  grid-area: 1/2/2/3;
+}
+
+.img-grid-3 {
+  grid-area: 1/3/2/4;
+}
+
+.img-grid-4 {
+  grid-area: 2/1/3/4;
+}
+
+.Button-black {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+  margin-left: 100px;
+  text-align: center;
+  border: 1px solid white;
+  padding: 10px 30px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.Block-line {
+  display: flex;
+  flex-direction: column;
+}
+
+.Line-color-1 {
+  border: 1px solid;
+  border-color: white;
+  width: 64px;
+  height: 0;
+  margin-left: 50px;
+  margin-top: 35px;
+  text-align: center;
+  display: inline-block;
+}
+
+.Line-color-2 {
+  border: 1px solid;
+  border-color: #e72424;
+  width: 64px;
+  height: 0;
+  margin-left: 50px;
+  margin-top: 40px;
+  text-align: center;
+  display: inline-block;
+}
+
+.Block-styling {
+  margin-bottom: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
